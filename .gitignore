@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.js.map
+*.d.ts
+!scripts/api-to-types.js
+npm-debug.log*
+.DS_Store
+*.tsbuildinfo

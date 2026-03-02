@@ -1,0 +1,35 @@
+{
+  "name": "api-to-types",
+  "version": "1.0.0",
+  "description": "Automatically generates TypeScript types from REST API responses with validation against actual endpoints.",
+  "main": "scripts/api-to-types.js",
+  "bin": {
+    "api-to-types": "scripts/api-to-types.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node scripts/api-to-types.js",
+    "test": "node scripts/api-to-types.js --help && node scripts/api-to-types.js --input-json '{\"id\":1,\"name\":\"Test\",\"active\":true}' --name TestType"
+  },
+  "keywords": [
+    "typescript",
+    "types",
+    "api",
+    "rest",
+    "codegen",
+    "type-generation",
+    "json-to-types"
+  ],
+  "author": "OpenClaw",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
