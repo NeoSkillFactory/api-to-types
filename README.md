@@ -43,8 +43,6 @@ node scripts/api-to-types.js --url https://api.example.com/secure --headers '{"A
 
 Source code: [github.com/NeoSkillFactory/api-to-types](https://github.com/NeoSkillFactory/api-to-types)
 
-**Price suggestion:** $19.99
-
 ## License
 
 MIT © NeoSkillFactory
